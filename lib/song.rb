@@ -46,6 +46,6 @@ class Song
     song = self.new
     array = name.split(" - ")
     artist_name = name.split[0]
-    song.name = [1].chomp(".mp3")
+    song.name = name.split(" - ")[1].chomp(".mp3")
   end
 end
