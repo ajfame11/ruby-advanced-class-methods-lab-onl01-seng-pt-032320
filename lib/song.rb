@@ -45,6 +45,5 @@ class Song
   def self.new_from_filename(name)
     song = self.new
     song.name = song.split
-    binding.pry
   end
 end
