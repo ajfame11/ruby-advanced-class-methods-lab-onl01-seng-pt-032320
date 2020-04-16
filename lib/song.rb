@@ -46,5 +46,6 @@ class Song
     binding.pry
     song = self.new
     array = name.split(" - ")
+    
   end
 end
