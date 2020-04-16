@@ -47,5 +47,6 @@ class Song
     song = self.new
     array = name.split(" - ")
     artist_name = name.split[0]
+    
   end
 end
